@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;300;400;500;600;700;800;900&family=Montserrat:wght@700&family=Roboto:wght@100;300&display=swap');
+
+.booksection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 2rem 6rem;
+}
+
+.category {
+  width: 3.063rem;
+  height: 1.125rem;
+  margin: 0 2.438rem 0.5rem 0;
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.title {
+  width: 20.313rem;
+  height: 1.813rem;
+  margin: 0.188rem 20.188rem 0.5rem 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.375rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+.author {
+  width: 12.688rem;
+  height: 1.188rem;
+  margin: 0.25rem 0 0.5rem 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.bookbtn {
+  background-color: transparent;
+  border: none;
+  margin-right: 1rem;
+  color: #4386bf;
+  height: 1.188rem;
+}
+
+.middle {
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.percentage {
+  width: 4.25rem;
+  height: 2.438rem;
+  margin: 0.063rem 5.75rem 0 0.688rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.complete {
+  color: #807d7d;
+}
+
+.currentchapter {
+  color: #807d7d;
+  font-weight: 400;
+  height: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.chapter {
+  color: #121212;
+  height: 1.313rem;
+  margin-bottom: 1rem;
+}
+
+.updateBtn {
+  width: 11.5rem;
+  height: 2.063rem;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  background-color: #0290ff;
+  color: #fff;
+}

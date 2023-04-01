@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;300;400;500;600;700;800;900&family=Montserrat:wght@700&family=Roboto:wght@100;300&display=swap');
+
+.panel-bg {
+  width: 100vw;
+  height: 5.938rem;
+  margin: 0;
+  padding: 1.438rem 0 1.688rem 6.25rem;
+  background-color: #fff;
+}
+
+.Bookstore-CMS {
+  width: 15rem;
+  height: 2.313rem;
+  margin: 0.375rem 2.938rem 0.125rem 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+  text-decoration: none;
+}
+
+.CATEGORIES {
+  width: 6.563rem;
+  height: 1rem;
+  margin: 1.125rem 0 0.688rem 2.563rem;
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+  text-decoration: none;
+}
+
+.BOOKS {
+  width: 3.688rem;
+  height: 1rem;
+  margin: 1.125rem 0 0.688rem 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+  text-decoration: none;
+}
+
+.Oval {
+  width: 2.813rem;
+  height: 2.813rem;
+  margin: -2.5rem 0 0 65.5rem;
+  padding: 0;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
