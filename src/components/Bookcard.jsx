@@ -24,10 +24,13 @@ const Bookcard = ({ book }) => {
           <button type="submit" className="bookbtn">Edit</button>
         </nav>
       </div>
-      <div className="progress">
-        <h3 className="percentage">{book.percent}</h3>
-        <p className="complete">Completed</p>
+      <div className="container">
+        <div className="oval" />
+        <div className="progress">
+          <h3 className="percentage">70%</h3>
+          <p className="complete">Completed</p>
 
+        </div>
       </div>
       <div className="bookupdate">
         <h3 className="currentchapter">CURRENT CHAPTER</h3>

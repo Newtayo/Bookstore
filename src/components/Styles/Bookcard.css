@@ -5,8 +5,16 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 100vw;
   padding: 2rem 6rem;
+  margin: 1.5rem auto 1rem auto;
+  background-color: #fff;
+  width: 90%;
+  border-radius: 2px;
+}
+
+.bookdetails {
+  margin: 0;
+  padding: 0;
 }
 
 .category {
@@ -27,7 +35,7 @@
 .title {
   width: 20.313rem;
   height: 1.813rem;
-  margin: 0.188rem 20.188rem 0.5rem 0;
+  margin: 0.188rem 10.188rem 0.5rem 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.375rem;
   font-weight: bold;
@@ -70,7 +78,6 @@
 .percentage {
   width: 4.25rem;
   height: 2.438rem;
-  margin: 0.063rem 5.75rem 0 0.688rem;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: normal;
@@ -105,4 +112,26 @@
   border-radius: 3px;
   background-color: #0290ff;
   color: #fff;
+  border: none;
+}
+
+.oval {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 2%;
+  margin-right: 6%;
+  background-image:
+    radial-gradient(closest-side, white 79%, transparent 80%),
+    conic-gradient(from 0deg at center, #307bbe 64%, #e8e8e8 0%);
+}
+
+.container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
