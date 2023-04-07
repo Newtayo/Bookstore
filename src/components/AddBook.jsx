@@ -21,6 +21,7 @@ const AddBook = () => {
 
   return (
     <div className="bookform">
+      <hr />
       <h2 className="formHeader">ADD NEW BOOK</h2>
       <form onSubmit={formSubmit} className="formbook">
         <input type="text" placeholder="Book title" className="Lesson-Panel" value={title} onChange={(e) => setTitle(e.target.value)} required />
