@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Styles/Bookcard.css';
 import { useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/booksSlice';
+import { removeBooks } from '../redux/books/booksSlice';
 
 const Bookcard = ({ book }) => {
   const dispatch = useDispatch();
@@ -20,7 +20,7 @@ const Bookcard = ({ book }) => {
         <p className="author">{book.author}</p>
         <nav>
           <button type="submit" className="bookbtn">Comments</button>
-          <button type="submit" className="bookbtn middle" onClick={() => dispatch(removeBook(book.item_id))}>Remove</button>
+          <button type="submit" className="bookbtn middle" onClick={() => dispatch(removeBooks(book.item_id))}>Remove</button>
           <button type="submit" className="bookbtn">Edit</button>
         </nav>
       </div>

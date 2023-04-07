@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Styles/AddBook.css';
 import { v4 as uuidv4 } from 'uuid';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../redux/books/booksSlice';
+import { addingBook } from '../redux/books/booksSlice';
 
 const AddBook = () => {
   const [title, setTitle] = useState('');
@@ -13,7 +13,10 @@ const AddBook = () => {
   const formSubmit = (event) => {
     event.preventDefault();
     const bookId = uuidv4();
-    dispatch(addBook({ title, author, bookId }));
+    dispatch(addingBook({ title, author, bookId }));
+
+    setAuthor('');
+    setTitle('');
   };
 
   return (
