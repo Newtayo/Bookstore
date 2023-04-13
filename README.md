@@ -59,7 +59,7 @@ In the project directory, you can run:
 
 > Project is yet to be deployed.
 
-- [Live Demo Link](<a href="(https://booklibrary-mmen.onrender.com/)">Live Demo</a>)
+- [Live Demo Link](<a href="https://booklibrary-mmen.onrender.com/">Live Demo</a>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
