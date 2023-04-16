@@ -172,3 +172,47 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+  .booksection {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+  }
+
+  .bookdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+
+  .title {
+    width: auto;
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.375rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    color: #121212;
+  }
+
+  .author {
+    width: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .currentchapter {
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  .chapter {
+    text-align: center;
+  }
+}

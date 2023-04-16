@@ -24,7 +24,7 @@ const Booklist = () => {
     <div>
       { bookslibrary.map((books) => (
 
-        <Bookcard key={books.id} book={books} />
+        <Bookcard key={books.item_id} book={books} />
       ))}
       <AddBook />
     </div>

@@ -32,13 +32,15 @@ export const removeBooks = createAsyncThunk('books/removeBook',
   });
 export const addingBook = createAsyncThunk(
   'books/addBook',
-  async ({ bookId, title, author }) => {
+  async ({
+    bookId, title, author, category,
+  }) => {
     try {
       const { data } = await axios.post(url, {
         item_id: bookId,
         title,
         author,
-        category: 'Romance',
+        category,
       });
       return data;
     } catch (error) {
@@ -71,7 +73,7 @@ const booksSlice = createSlice({
           ...state,
           bookslibrary: bookContainer,
           isLoading: false,
-          success: true,
+          success: false,
         };
       }).addCase(getBooks.rejected, (state) => ({
         ...state,
