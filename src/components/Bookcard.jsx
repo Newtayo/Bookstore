@@ -8,7 +8,7 @@ const Bookcard = ({ book }) => {
   const dispatch = useDispatch();
 
   Bookcard.propTypes = {
-    book: PropTypes.node.isRequired,
+    book: PropTypes.oneOfType([PropTypes.object]).isRequired,
 
   };
 
